@@ -1,3 +1,7 @@
+# Package Files #
+*.war
+*.ear
+
 HELP.md
 .gradle
 build/
@@ -72,11 +76,6 @@ Icon
 
 ### Java ###
 *.class
-
-# Package Files #
-*.jar
-*.war
-*.ear
 
 ### Gradle ###
 # Exclude Folder List #
