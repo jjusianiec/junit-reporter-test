@@ -26,7 +26,7 @@ jobs:
       run: ./gradlew build
 
     - name: Junit report
-      uses: allegro-actions/junit-reporter@feature-check_run-custom_name
+      uses: allegro-actions/junit-reporter@39abfb6cc09afb66b317c5b067d33665d64e45b2
       if: ${{ success() || failure() }}
       with:
         path: '**/test-results/*/*.xml'
